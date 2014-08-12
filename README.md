@@ -1,7 +1,13 @@
 FlappyBirdClone
 ===============
 
-A Flappy Bird Clone made using python-pygame and adapted for the Open Pandora handheld. Original code by sourabhv, modifications made by Ekianjo. 
+A Flappy Bird Clone made using python-pygame and adapted for the Open Pandora handheld. Original code by sourabhv, modifications made by Ekianjo. Key modifications include:
+
+- flappy.py: Screen resized to 800*480 by default.
+- flappy.py: Resizing of certain assets like backgrounds and base.png to fit the new screen size
+- flappy.py: Increased the numbers of random pipes to 5 at once in order to fill the screen with pipes on 800*480 resolution
+- flappy.py: adjusted the position of the base at the bottom of the screen.
+- Added run.sh script to handle specific OMAP drivers instructions for the Pandora.
 
 How-to
 ------
